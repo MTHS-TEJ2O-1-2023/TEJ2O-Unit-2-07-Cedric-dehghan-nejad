@@ -13,13 +13,13 @@ cookie = 0
 
 // input
 
-input.onButtonPressed(Button.A, function() {
+input.onButtonPressed(Button.A, function () {
   cookie = (cookie + 1)
 
   basic.showNumber(cookie)
 
-  input.onButtonPressed(Button.B, function() {
+  input.onButtonPressed(Button.B, function () {
     cookie = 0
-  basic.showNumber(cookie)
-})    
+    basic.showNumber(cookie)
+  })
 })
