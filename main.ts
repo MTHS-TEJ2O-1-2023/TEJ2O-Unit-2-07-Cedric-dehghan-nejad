@@ -1,8 +1,8 @@
 /* Copyright (c) 2020 MTHS All rights reserved
  *
- * Created by: Mr. Coxall
+ * Created by: cedric
  * Created on: oct 2023
- * This program ...
+ * This program adds a cookie everytime you click
 */
 
 basic.clearScreen()
@@ -10,8 +10,9 @@ basic.showIcon(IconNames.Happy)
 
 let cookie: number
 cookie = 0
-input.buttonIsPressed(Button.A)
+
 // input
+
 input.onButtonPressed(Button.A, function() {
   cookie = (cookie + 1)
 
